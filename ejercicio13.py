@@ -1,8 +1,8 @@
 # 13. Crea una clase llamada Estudiante con atributos
-#nombre, edad y curso. Crea varios objetos de tipo
-#Estudiante y almacénalos en una lista. Luego, itera
-#sobre la lista e imprime la información de cada
-#estudiante.
+# nombre, edad y curso. Crea varios objetos de tipo
+# Estudiante y almacénalos en una lista. Luego, itera
+# sobre la lista e imprime la información de cada
+# estudiante.
 
 lista_nombre=[]
 lista_edad=[]

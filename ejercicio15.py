@@ -1,6 +1,6 @@
-#15. Crea una clase llamada Coche con atributos
-#marca y modelo. Crea un método que imprima la
-#información del coche en un formato legible.
+# 15. Crea una clase llamada Coche con atributos
+# marca y modelo. Crea un método que imprima la
+# información del coche en un formato legible.
 
 class Coche:
     def __init__(self,marca,modelo):

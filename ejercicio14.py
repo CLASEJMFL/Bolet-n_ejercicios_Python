@@ -1,5 +1,5 @@
-#Crea una clase llamada CuentaBancaria con atributos titular y saldo. Agrega métodos para
-#depositar y retirar dinero de la cuenta.
+# 14. Crea una clase llamada CuentaBancaria con atributos titular y saldo. Agrega métodos para
+# depositar y retirar dinero de la cuenta.
 class CuentaBancaria:
     def __init__(self, titular, saldo):
         self.titular = titular
