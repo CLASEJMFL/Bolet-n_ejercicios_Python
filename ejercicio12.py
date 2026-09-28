@@ -1,15 +1,20 @@
-# 12. Luego, crea un objeto de tipo Persona e imprime sus atributos.
+# 12. Crea una clase llamada Rectangulo con atributos
+# ancho y altura. Agrega un método para calcular el
+# área del rectángulo y otro para calcular su
+# perímetro.
 
-class persona:
-    def __init__(self, nombre, edad):
-        self.nombre = nombre
-        self.edad = edad
-    def __str__(self):
-        return f"{self.nombre} ({self.edad} años)"
+class Rectangulo:
+    def __init__(self, ancho, altura):
+        self.ancho = ancho
+        self.altura = altura
         
-p1 = persona("Pepe", 60)
-p2 = persona("María", 30)
+    def area(self):
+        return self.ancho * self.altura
+        
+    def perimetro(self):
+        return (self.altura * 2) + (self.ancho * 2)
+        
+r1 = Rectangulo(12, 7)
 
-print (p1)
-print (p2)
-
+print(r1.area())
+print(r1.perimetro())
