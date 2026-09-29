@@ -12,5 +12,19 @@ class FiguraGeometrica:
         self.altura = altura
 
 class rectangulo(FiguraGeometrica):
-    area = ancho * altura
+    def areaRectangulo(self):
+        area = self.ancho*self.altura
+        print("El area del rectangulo es",area)
+    
+    
+class triangulo(FiguraGeometrica):
+    def areaTriangulo(self):
+        area = (self.ancho*self.altura)/2
+        print("El area del triangulo es",area)
+    
+t1 = triangulo(10,15)
+r1 = rectangulo(15,8)
+
+t1.areaTriangulo()
+r1.areaRectangulo()
     
